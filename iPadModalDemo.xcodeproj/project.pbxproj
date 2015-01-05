@@ -13,6 +13,7 @@
 		A7828CF91A5A2C5E009D4B01 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A7828CF81A5A2C5E009D4B01 /* Images.xcassets */; };
 		A7828CFC1A5A2C5E009D4B01 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = A7828CFA1A5A2C5E009D4B01 /* LaunchScreen.xib */; };
 		A7828D081A5A2C5E009D4B01 /* iPadModalDemoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7828D071A5A2C5E009D4B01 /* iPadModalDemoTests.swift */; };
+		A7828D121A5A2EBA009D4B01 /* TutorialViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7828D111A5A2EBA009D4B01 /* TutorialViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +37,7 @@
 		A7828D011A5A2C5E009D4B01 /* iPadModalDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = iPadModalDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A7828D061A5A2C5E009D4B01 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A7828D071A5A2C5E009D4B01 /* iPadModalDemoTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iPadModalDemoTests.swift; sourceTree = "<group>"; };
+		A7828D111A5A2EBA009D4B01 /* TutorialViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TutorialViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,6 +81,7 @@
 			children = (
 				A7828CF11A5A2C5E009D4B01 /* AppDelegate.swift */,
 				A7828CF31A5A2C5E009D4B01 /* ViewController.swift */,
+				A7828D111A5A2EBA009D4B01 /* TutorialViewController.swift */,
 				A7828CF51A5A2C5E009D4B01 /* Main.storyboard */,
 				A7828CF81A5A2C5E009D4B01 /* Images.xcassets */,
 				A7828CFA1A5A2C5E009D4B01 /* LaunchScreen.xib */,
@@ -213,6 +216,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				A7828CF41A5A2C5E009D4B01 /* ViewController.swift in Sources */,
+				A7828D121A5A2EBA009D4B01 /* TutorialViewController.swift in Sources */,
 				A7828CF21A5A2C5E009D4B01 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
